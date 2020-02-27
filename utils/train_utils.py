@@ -116,7 +116,7 @@ class train_utils(object):
             logging.info('-'*5 + 'Epoch {}/{}'.format(epoch, args.max_epoch - 1) + '-'*5)
             # Update the learning rate
             if self.lr_scheduler is not None:
-                self.lr_scheduler.step(epoch)
+                # self.lr_scheduler.step(epoch)
                 logging.info('current lr: {}'.format(self.lr_scheduler.get_lr()))
             else:
                 logging.info('current lr: {}'.format(args.lr))
@@ -202,7 +202,8 @@ class train_utils(object):
 
 
 
-
+            if self.lr_scheduler is not None:
+                self.lr_scheduler.step()
 
 
 
