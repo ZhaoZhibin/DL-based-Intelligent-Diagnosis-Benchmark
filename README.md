@@ -1,7 +1,7 @@
 
 ## DL-based-Intelligent-Diagnosis-Benchmark
 
-Code release for **[Deep Learning Algorithms for Rotating Machinery Intelligent Diagnosis: An Open Source Benchmark Study](https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark)** by [Zhibin Zhao](https://zhaozhibin.github.io/), Tianfu Li, and Jingyao Wu.
+Code release for **[Deep Learning Algorithms for Rotating Machinery Intelligent Diagnosis: An Open Source Benchmark Study](https://arxiv.org/abs/2003.03315)** by [Zhibin Zhao](https://zhaozhibin.github.io/), Tianfu Li, and Jingyao Wu.
 
 ## Guide
 This project just provides the baseline (lower bound) accuracies and a unified intelligent fault diagnosis library which retains an extended interface for everyone to load their own datasets and models by themselves to carry out new studies. Meanwhile, all the experiments are executed under Window 10 and Pytorch 1.1 through running on a computer with an Intel Core i7-9700K, GeForce RTX 2080Ti, and 16G RAM.
@@ -58,8 +58,26 @@ This repository is organized as:
 
 
 ## Citation
-
-
+Codes:
+```
+@misc{Zhao2020,
+author = {Zhibin Zhao and Tianfu Li and Jingyao Wu and Chuang Sun and Shibin Wang and Ruqiang Yan and Xuefeng Chen},
+title = {Deep Learning Algorithms for Rotating Machinery Intelligent Diagnosis},
+year = {2020},
+publisher = {GitHub},
+journal = {GitHub repository},
+howpublished = {\url{https://github.com/ZhaoZhibin/DL-based-Intelligent-Diagnosis-Benchmark}},
+}
+```
+Paper:
+```
+@article{zhao2020deep,
+  title={Deep Learning Algorithms for Rotating Machinery Intelligent Diagnosis: An Open Source Benchmark Study},
+  author={Zhibin Zhao and Tianfu Li and Jingyao Wu and Chuang Sun and Shibin Wang and Ruqiang Yan and Xuefeng Chen},
+  journal={arXiv preprint arXiv:2003.03315},
+  year={2020}
+}
+```
 ## Contact
 - zhibinzhao1993@gmail.com
 - litianfu@stu.xjtu.edu.cn
