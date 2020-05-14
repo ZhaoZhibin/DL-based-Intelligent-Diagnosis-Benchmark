@@ -37,7 +37,7 @@ def get_files(root, test=False):
             lab +=lab1
 
     for j in tqdm(range(len(datasetname2))):
-        files = os.listdir(os.path.join('/tmp',root,WC[1],datasetname2[i]))
+        files = os.listdir(os.path.join('/tmp',root,WC[1],datasetname2[j]))
         for jj in [-4,-3, -2, -1]:
             path2 = os.path.join('/tmp',root,WC[1],datasetname2[i],files[jj])
             data2, lab2 = data_load(path2,label=label2[j])
@@ -45,7 +45,7 @@ def get_files(root, test=False):
             lab += lab2
 
     for k in tqdm(range(len(datasetname3))):
-        files = os.listdir(os.path.join('/tmp',root,WC[2],datasetname3[i]))
+        files = os.listdir(os.path.join('/tmp',root,WC[2],datasetname3[k]))
         for kk in [-4,-3, -2, -1]:
             path3 = os.path.join('/tmp',root,WC[2],datasetname3[i],files[kk])
             data3, lab3 = data_load(path3,label=label3[k])
