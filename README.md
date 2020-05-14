@@ -3,6 +3,9 @@
 
 Code release for **[Deep Learning Algorithms for Rotating Machinery Intelligent Diagnosis: An Open Source Benchmark Study](https://arxiv.org/abs/2003.03315)** by [Zhibin Zhao](https://zhaozhibin.github.io/), Tianfu Li, and Jingyao Wu.
 
+## Correction
+* 2020.05.14, we modified the errors of the dataloaders related to XJTU dataset.
+
 ## Guide
 This project just provides the baseline (lower bound) accuracies and a unified intelligent fault diagnosis library which retains an extended interface for everyone to load their own datasets and models by themselves to carry out new studies. Meanwhile, all the experiments are executed under Window 10 and Pytorch 1.1 through running on a computer with an Intel Core i7-9700K, GeForce RTX 2080Ti, and 16G RAM.
 
