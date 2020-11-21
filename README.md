@@ -1,7 +1,7 @@
 
 ## DL-based-Intelligent-Diagnosis-Benchmark
 
-Code release for **[Deep Learning Algorithms for Rotating Machinery Intelligent Diagnosis: An Open Source Benchmark Study](https://arxiv.org/abs/2003.03315)** by [Zhibin Zhao](https://zhaozhibin.github.io/), Tianfu Li, and Jingyao Wu.
+Code release for Deep Learning Algorithms for Rotating Machinery Intelligent Diagnosis: An Open Source Benchmark Study **[ISA Transactions](https://doi.org/10.1016/j.isatra.2020.08.010)** **[arXiv](https://arxiv.org/abs/2003.03315)** by [Zhibin Zhao](https://zhaozhibin.github.io/), Tianfu Li, and Jingyao Wu.
 
 ## Correction
 * 2020.05.14, we modified the errors of the dataloaders related to XJTU dataset.
@@ -77,7 +77,7 @@ Paper:
 @article{zhao2020deep,
   title={Deep Learning Algorithms for Rotating Machinery Intelligent Diagnosis: An Open Source Benchmark Study},
   author={Zhibin Zhao and Tianfu Li and Jingyao Wu and Chuang Sun and Shibin Wang and Ruqiang Yan and Xuefeng Chen},
-  journal={arXiv preprint arXiv:2003.03315},
+  journal={ISA Transactions},
   year={2020}
 }
 ```
