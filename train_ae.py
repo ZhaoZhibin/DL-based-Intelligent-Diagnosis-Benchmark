@@ -15,7 +15,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description='Train')
 
     # basic parameters
-    parser.add_argument('--model_name', type=str, default='Vae1d', help='the name of the model')
+    parser.add_argument('--model_name', type=str, default='Ae2d', help='the name of the model')
     parser.add_argument('--data_name', type=str, default='SEUCWT', help='the name of the data')
     parser.add_argument('--data_dir', type=str, default= "D:\Data\Mechanical-datasets", help='the directory of the data')
     parser.add_argument('--normlizetype', type=str, choices=['0-1', '1-1', 'mean-std'],default="0-1", help='data pre-processing ')
