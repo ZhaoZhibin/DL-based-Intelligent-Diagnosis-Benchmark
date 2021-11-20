@@ -89,8 +89,8 @@ def data_transforms(dataset_type="train", normlize_type="-1-1"):
         ReSize(size=3.0),
         Reshape(),
         Normalize(normlize_type),
-        RandomScale(),
-        RandomCrop(),
+        #RandomScale(),
+        #RandomCrop(),
         Retype(),
     ]),
         'val': Compose([
