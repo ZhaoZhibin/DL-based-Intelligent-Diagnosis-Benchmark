@@ -79,10 +79,10 @@ def data_transforms(dataset_type="train", normlize_type="-1-1"):
         'train': Compose([
             Reshape(),
             Normalize(normlize_type),
-            RandomAddGaussian(),
-            RandomScale(),
-            RandomStretch(),
-            RandomCrop(),
+            #RandomAddGaussian(),
+            #RandomScale(),
+            #RandomStretch(),
+            #RandomCrop(),
             Retype()
 
         ]),
